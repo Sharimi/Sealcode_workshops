@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Kuleczka</title>
+      <style type="text/css">
+         div {
+         width: 100px;
+         height: 100px;
+         border-radius: 50%;
+         position: relative;
+         backgroud-color: red;
+         animation: example 4s infinite;
+         animation-timing-function: ease-in-out;
+         animation-direction: normal;}
+         @keyframes example{
+         0% { background-color: red;
+         left: 0px;
+         top: 0px;
+         }
+         25% { background-color: yellow;
+         left: 160px;
+         top: 0px;}
+         50% { background-color: blue;
+         left: 160px;
+         top: 160px;}
+         75%{ background-color: green;
+         left: 0px;
+         top: 160px;}
+         100%{ background-color: red;
+         left: 0px;
+         top: 0px;}}
+      </style>
+   </head>
+   <body>
+      <div></div>
+   </body>
+</html>
